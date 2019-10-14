@@ -43,6 +43,20 @@ print(len(x), x[0], x[-1])
 #zadanie 14
 liczby = [2, 7, 3, 5]
 print(liczby[1], sum(liczby), len(liczby),liczby[-2] ,sum(liczby)/len(liczby))
-        
+
+#zadanie 15
+liczba = 10
+print("Wartość liczby to {}, a {} to jej druga potęga".format(liczba, liczba**2))
+
+#zadanie 16
+imie = 'Vova'
+wzrost = 180
+wiek = 16
+print('Mam na imię {} i mam {} lat, a mój wzrost to {} cm'.format(imie, wiek, wzrost))
+
+#zadanie 17
+Kwota = 15.84
+VAT = Kwota * 0.23
+print(round(VAT,2))
 
 
