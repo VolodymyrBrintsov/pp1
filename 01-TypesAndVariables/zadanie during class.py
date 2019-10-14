@@ -32,3 +32,7 @@ x = [liczba1, liczba2, liczba3, liczba4, liczba5]
 print(x[0] + x[1] + x[2] + x[3] + x[4], x[0]**2 + x[1]**2 + x[2]**2 + x[3]**2 + x[4]**2, x[2]/x[4], x[0]%x[4],
           (x[0]+x[1])/(x[3]+x[4]),x[0]%x[2], bool(x[2] == x[4]))
 
+#zadanie 12
+uczelnia = 'Uniwersytet Ekonomiczny w Krakowie'
+print(uczelnia, len(uczelnia), uczelnia[0], uczelnia[-1], uczelnia[3:9], uczelnia[0:11]+uczelnia[23:34])
+
