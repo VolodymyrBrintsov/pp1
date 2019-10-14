@@ -13,6 +13,9 @@ for y in x:
 x = [15*38, (3+4)*(5+9), 7//2, 48%5, (8+7+4+2)/4, 2**10, 49**0.5, 80*0.25]
 for y in x:
     print(y)
+
+#zadania 9
+
     
 #zadanie 10
 x = 7
@@ -58,6 +61,18 @@ print('Mam na imię {} i mam {} lat, a mój wzrost to {} cm'.format(imie, wiek, 
 Kwota = 15.84
 VAT = Kwota * 0.23
 print(round(VAT,2))
+
+#zadanie 18
+imie = 'Vova'
+nazwisko = 'Brintsov'
+print(imie, nazwisko)
+
+#zadanie 19
+
+
+
+
+
 
 
 
