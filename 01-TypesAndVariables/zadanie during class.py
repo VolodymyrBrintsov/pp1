@@ -36,3 +36,8 @@ print(x[0] + x[1] + x[2] + x[3] + x[4], x[0]**2 + x[1]**2 + x[2]**2 + x[3]**2 + 
 uczelnia = 'Uniwersytet Ekonomiczny w Krakowie'
 print(uczelnia, len(uczelnia), uczelnia[0], uczelnia[-1], uczelnia[3:9], uczelnia[0:11]+uczelnia[23:34])
 
+#zadanie 13
+x = ['a', 'b', 'c']
+print(len(x), x[0], x[-1])
+
+
