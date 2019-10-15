@@ -11,4 +11,4 @@ if h < 3.5:
     elif 24 < I:
         print(f'Masz za duzo wagi, twoj pokaznik BMI: {I}')
 elif h > 3.5:
-    print('Nie moge policzyc.Napisales wzrost w metrach')
+    print('Nie moge policzyc. Napisales wzrost w cantymetrach')
