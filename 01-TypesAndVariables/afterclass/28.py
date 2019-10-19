@@ -1,5 +1,5 @@
 import random
-x = 3 #ilosc rzutow
+x = int(input('Ile chces zevy komputer zrobil rzutow?')) #ilosc rzutow
 suma = [] #zeby mozna bylo wykorztstac .append
 for y in range(x): 
         los = random.randint(1,6) #wykorzystamy jeden random zeby rezultaty byli jednymi
