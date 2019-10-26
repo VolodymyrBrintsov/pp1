@@ -1,7 +1,8 @@
-for i in range(10):
-    if i < 5:
-        print(i*'*')
-    elif i > 5:
-        while i != 1:
-            i -= 1
-            print(i * '*')
+x = 0
+while x != 5:
+    x += 1
+    print(x * '*')
+if x == 5:
+    while x != 0:
+        x -= 1
+        print(x*'*')
