@@ -1,4 +1,5 @@
-str = 'To be, or not to be, that is the question'
-vowels ="a", "e", "i", "o", "u"
-Samogloski = re.findall('\A{vowels}', str)
-print(Samogloski)
+import re
+komunikat = 'To be, or not to be, that is the question'
+kek = ()
+cyfry = kek + tuple((re.findall('[aeiouyAEIOUY]', komunikat)))
+print(len(cyfry))
