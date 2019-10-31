@@ -1,3 +1,4 @@
-for num in range(2,101):
-    if all(num%i!=0 for i in range(2,num)):
-       print(num, end=' ')
+N=int(input())
+for N in range(2, N):
+    if all(N%i!=0 for i in range(2,N)):
+        print(N, end=" ")
