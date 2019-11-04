@@ -7,4 +7,4 @@ with open('C:/Users/1/Desktop/pp1/03-FileHandling/afterclass/csv.csv', 'w')as fi
                 if x != i[-1]:
                     print(f'{x},')
                 else:
-                    print(f'{x}\n')4
+                    print(f'{x}\n')

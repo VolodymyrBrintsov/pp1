@@ -1,7 +1,7 @@
 f1 = 0
 f2 = 1
 count = 0
-while count != 19:
+while count != 20:
     count += 1
     f = f1 + f2
     f2 = f1
