@@ -5,5 +5,5 @@ def oshuk(tab):
         if type(i) == list:
             rezultat.append(i)
             oshuk(i)
-    print(**rezultat)
+    print(*rezultat)
 oshuk(tab)
