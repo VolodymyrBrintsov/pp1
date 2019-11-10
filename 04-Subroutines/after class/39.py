@@ -12,7 +12,8 @@ def sprawdz(x,y):
             x -= 1
     if podane in zakres:
         print(f'Liczba {podane} jest w zakresie od {x1}, {y}.')
+        print(zakres)
     elif podane not in zakres:
-        print(f'Liczby {podane} nie ma w zakresie id {x1}, {y}')
-sprawdz(5,10)
+        print(f'Liczby {podane} nie ma w zakresie od {x1}, {y}')
+sprawdz(12,10)
     

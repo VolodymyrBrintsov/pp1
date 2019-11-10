@@ -1,4 +1,5 @@
 tab = list(input('Podaj tablice: '))
 def reverse(tab):
-    print(tab[::-1])
+    tab_reverse = tab[::-1]
+    print(f'Tablica: {tab}, jej odwrotna tablica: {tab_reverse}')
 reverse(tab)

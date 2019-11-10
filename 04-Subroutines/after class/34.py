@@ -5,4 +5,5 @@ def fib(n):
         return 1
     if n > 1:
         return fib(n-1)+fib(n-2)
-print(fib(10))
+for x in range(0,10):
+    print(fib(x), end = " ")
