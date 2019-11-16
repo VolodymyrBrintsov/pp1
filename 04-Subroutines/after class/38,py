@@ -1,6 +1,0 @@
-import re
-tab = 'vjnjNFJfjnnjckFK@k'
-def wielkieLitery():
-    x = re.findall('[A-Z]', tab)
-    print(x)
-wielkieLitery()

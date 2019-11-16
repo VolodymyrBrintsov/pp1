@@ -1,4 +1,6 @@
-def sprawdz(x,y):
+def sprawdz():
+    x = int(input('Podaj od jakiej liczby zaczyna zakres: '))
+    y = int(input('Podaj koniec zakres: '))
     zakres = []
     podane = int(input('Podaj liczbe: '))
     x1 = x
@@ -12,8 +14,7 @@ def sprawdz(x,y):
             x -= 1
     if podane in zakres:
         print(f'Liczba {podane} jest w zakresie od {x1}, {y}.')
-        print(zakres)
     elif podane not in zakres:
         print(f'Liczby {podane} nie ma w zakresie od {x1}, {y}')
-sprawdz(12,10)
+sprawdz()
     

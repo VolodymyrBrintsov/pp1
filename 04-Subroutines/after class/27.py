@@ -5,6 +5,7 @@ def czestosc():
     samogloski_tekst = []
     for x in samogloski:
         samogloski_tekst = re.findall(x,text)
-        print(f'Samogłoska: {x} występuje: {len(samogloski_tekst)} razy, częstość {len(samogloski_tekst)}/{len(text)}')    
+        czestosc = len(samogloski_tekst)/len(text)
+        print(f'Samogłoska: {x} występuje: {len(samogloski_tekst)} razy z {len(text)}, częstość {round(czestosc, 3)}%')    
 czestosc()
         

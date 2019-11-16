@@ -2,8 +2,12 @@ tab = [7, 5, [3, 6, [2]], 7, [1, [2, 3, [4]], 9, 2], 4]
 def oshuk(tab):
     rezultat = []
     for i in tab:
-        if type(i) == list:
-            rezultat.append(i)
+        if type(i) == int:
+            rezultat.append(int(i))
             oshuk(i)
-    print(*rezultat)
+        if type(i) == list:
+            
+            
+            oshuk(i)
+    print(rezultat)
 oshuk(tab)
