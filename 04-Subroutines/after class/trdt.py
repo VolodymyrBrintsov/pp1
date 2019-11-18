@@ -3,4 +3,4 @@ def spr(str):
         return str
     return str[0] + '(' + spr(str[1:-1]) + ')' + str[-1] 
     
-print(spr('KeKpWich'))
+print(spr('tete'))
