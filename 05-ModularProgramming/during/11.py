@@ -1,5 +1,6 @@
 import re
-file = open('../kek.txt', 'r')
+file = open('Wydatki.txt', 'r')
 for line in file:
-    x = re.findall('\d*', line)
+    liczby = re.findall('\d',line)
+print(liczby)
     
