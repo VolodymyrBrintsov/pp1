@@ -7,3 +7,6 @@ elif len(NR) > 26:
     print('Nie prawidlowy numer')
 elif len(NR) == 26:
     print ("Numer kartki: ",p_NR)
+    
+for x in range(26):
+    print(1, end= '')

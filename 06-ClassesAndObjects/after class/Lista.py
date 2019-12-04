@@ -6,9 +6,11 @@ class ListaKontaktow():
         
     def dodaj_kontakt(self):
         nazwa_nowego_kontaktu = 'nazwa_nowego_kontaktu'
-        while nazwa_nowego_kontaktu != '':
+        while nazwa_nowego_kontaktu != 'r':
             nazwa_nowego_kontaktu = input('Podaj nazwe nowego kontaktu: ')
             self.nazwa.append(nazwa_nowego_kontaktu)
+            if nazwa_nowego_kontaktu == "":
+                break
             
             email_nowego_kontaktu = input('Podaj email nowego kontaktu: ')
             self.email.append(email_nowego_kontaktu)
@@ -18,7 +20,6 @@ class ListaKontaktow():
         
     def wyswietl(self):
         print('Lista kontaktow: ')
-        for x in range(0, len(self.nazwa)):
-            print(f'{self.nazwa[x]}\t      {self.email[x]}\t          {self.numer[x]}')
+        for x in range(0, len(self.numer)):
+            print(f'{self.nazwa[x]}     {self.email[x]}          {self.numer[x]}')
         
-lista = ListaKontaktow()
