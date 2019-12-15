@@ -1,3 +1,4 @@
+import re
 class ListaKontaktow():
     def __init__(self):
         self.nazwa = ['Maj Piotr', 'Vova Brintsov', 'Jan Kowalski']
@@ -20,6 +21,6 @@ class ListaKontaktow():
         
     def wyswietl(self):
         print('Lista kontaktow: ')
-        for x in range(0, len(self.numer)):
+        for x in range(len(self.numer)):
             print(f'{self.nazwa[x]}     {self.email[x]}          {self.numer[x]}')
         
