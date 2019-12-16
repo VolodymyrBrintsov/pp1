@@ -17,6 +17,6 @@ class matrix():
     def print(matrix):
         for row in matrix:
             print(row)
-
-m = matrix.create(4,3)
+            
+m = matrix.create(3,5)
 matrix.print(m)
