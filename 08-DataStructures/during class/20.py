@@ -13,5 +13,5 @@ with open("komputer.json", "w")as file:
 with open("komputer.json")as file:
     data = json.load(file)
     
-print(data['nazwa'])
+print(data['czesto uzywane pliki'][0])
     

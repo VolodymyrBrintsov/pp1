@@ -20,7 +20,8 @@ class ListaKontaktow():
             self.numer.append(numer_nowego_kontaktu)
         
     def wyswietl(self):
-        print('Lista kontaktow: ')
+        kek = 'Lista kontaktow: \n'
         for x in range(len(self.numer)):
-            print(f'{self.nazwa[x]}     {self.email[x]}          {self.numer[x]}')
+            kek += f'{self.nazwa[x]}\t{self.email[x]}\t{self.numer[x]}\n'
+        print(kek)
         
