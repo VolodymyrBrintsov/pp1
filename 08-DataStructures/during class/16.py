@@ -6,7 +6,7 @@ class Stack:
     def pop(self):
         if self.is_empty():
             return None
-        return self.stack.pop()
+        return self.stack.pop(0)
 
     def push(self, item):
         self.stack.append(item)
