@@ -23,8 +23,8 @@ class TestSumEven(unittest.TestCase):
     def test_sum_even_nm(self):
         # Testuj sumę liczb naturalnych parzystych 
         # z przedziału m,n, gdzie n<m
-        m = 5
-        n = 2
+        m = 6
+        n = -2
         result = sum_even(m,n)
         self.assertEqual(result, 0)
 

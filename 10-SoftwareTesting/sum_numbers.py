@@ -9,7 +9,7 @@ def sum_even(from_m,to_n):
 def main():
     m = 1
     n = 5
-    print(f"Suma liczb naturalnych parzystych z przedziału <{m},{n}> wynosi {sum_even(1,5)}")
+    print(f"Suma liczb naturalnych parzystych z przedziału <{m},{n}> wynosi {sum_even(-1,5)}")
 
 if __name__ == "__main__":
     main()
